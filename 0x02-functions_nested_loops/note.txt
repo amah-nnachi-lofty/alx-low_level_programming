@@ -1,0 +1,7 @@
+
+
+- Make sure the GitHub repository: alx-low_level_programming exist and create Directory: 0x02-functions_nested_loops
+- Create main.h file and insert all prototype commands. Test the commands with betty main.h
+- write the program for _putchar.c and 0-putchar.c 
+- test the program with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
+- git add . ; git commit -m 'Write a program that prints _putchar, followed by a new line. The program should return 0' ; git push
