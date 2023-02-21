@@ -5,3 +5,32 @@
 - write the program for _putchar.c and 0-putchar.c 
 - test the program with gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
 - git add . ; git commit -m 'Write a program that prints _putchar, followed by a new line. The program should return 0' ; git push
+
+# An example showing how to copy from prvious directory to present directory
+
+root@1a297788f237:~/alx-low_level_programming/0x02-functions_nested_loops# mkdir check
+root@1a297788f237:~/alx-low_level_programming/0x02-functions_nested_loops# cd check
+root@1a297788f237:~/alx-low_level_programming/0x02-functions_nested_loops/check# cp ../../../alx-low_level_programming/0x02-functions_nested_loops/0-putchar.c .
+root@1a297788f237:~/alx-low_level_programming/0x02-functions_nested_loops/check# ls
+0-putchar.c
+root@1a297788f237:~/alx-low_level_programming/0x02-functions_nested_loops/check# cat 0-putchar.c
+#include "main.h"
+/**
+ * main - Entry Block
+  *Description: prints _putchar followed by a new line
+ * Return: 0
+ */
+int main(void)
+{
+        char c[8] = "_putchar";
+
+        int i = 0;
+
+        while (i < 8)
+        {
+                _putchar(c[i]);
+                i++;
+        }
+        _putchar('\n');
+        return (0);
+}
