@@ -1,4 +1,4 @@
-
+# Steps
 
 - Make sure the GitHub repository: alx-low_level_programming exist and create Directory: 0x02-functions_nested_loops
 - Create main.h file and insert all prototype commands. Test the commands with betty main.h
