@@ -1,0 +1,61 @@
+Step 1
+create main.c
+
+#include "main.h"
+
+/**
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
+
+int main(void)
+{
+        int i;
+
+        i = 98;
+        positive_or_negative(i);
+
+        return (0);
+}
+
+
+step 2
+Create 0-main.c to test that the function positive_or_negative() gives the correct output when given a case of 0
+
+#include "main.h"
+
+/**
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
+ */
+
+int main(void)
+{
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
+}
+
+step 3
+create main.h
+
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
+#endif
+
+Note:
+Running gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c 0-main.c -o 0-main   will generate error s expected
+       gcc: error: positive_or_negative.c: No such file or directory
+Ignore the the eror and run git add, commit and push
+
+
