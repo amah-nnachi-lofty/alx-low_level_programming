@@ -1,6 +1,6 @@
 Use of commands
 
-1. Export CFILE=main.c     // will will export a variable file named CFILE to a file named main.c
+1. Export CFILE=main.c     // will export a variable file named CFILE to a file named main.c
 
 2. chmod 777 o.preprocessor   // To grant executable permission to the file o.preprocessor
 
