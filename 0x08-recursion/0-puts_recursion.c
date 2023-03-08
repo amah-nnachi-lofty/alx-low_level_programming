@@ -7,7 +7,7 @@ void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-		_putchar(*s);       //print the first letter in the string
+		_putchar(*s);        /* print the first letter in the string */
 		_puts_recursion(s + 1);
 	}
 
