@@ -17,8 +17,8 @@
 
 - Touch create_static_lib.sh
 - Copy the code below into the above file
--- !/bin/bash
--- gcc -c *.c
--- ar -rc liball.a *.o	
+- !/bin/bash
+- gcc -c *.c
+- ar -rc liball.a *.o	
 - chmod u+x create_static_lib.sh
 - test or run the executable file with ./create_static_lib.sh
