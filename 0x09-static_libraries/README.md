@@ -1,7 +1,7 @@
+
 # 0x09. C - Static libraries
 
-
-# Task requirements
+# 0 Task requirements
 
 - Create the README.md file
 - Create main.h and copy all the prepositions
@@ -12,4 +12,13 @@
 - Run touch gitignore and add *.c *.o
 - Run the command ar -t libmy.a *.o  to list all the .o object files  OR ar -cr libmy.a *.o
 - Run nm libmy.a
-- git add, commit, and push to remote repo
+
+# 1 Task requirements
+
+- Touch create_static_lib.sh
+- Copy the code below into the above file
+!/bin/bash
+gcc -c *.c
+ar -rc liball.a *.o	
+- chmod u+x create_static_lib.sh
+- test or run the executable file with ./create_static_lib.sh
