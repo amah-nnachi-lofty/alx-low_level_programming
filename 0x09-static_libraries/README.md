@@ -16,7 +16,7 @@
 # 1 Task requirements
 
 - Touch create_static_lib.sh
-- Copy the code below into the above file
+- Copy the three lines of code below into the above file
 - !/bin/bash
 - gcc -c *.c
 - ar -rc liball.a *.o	
