@@ -1,9 +1,6 @@
 #ifndef CALC_H
 #define CALC_H
 
-#include <stdlib.h>
-#include <stdio.h>
-
 /*
  * Desc: Header file containing all structures and
  *       prototypes used by the 3-main.c program.
