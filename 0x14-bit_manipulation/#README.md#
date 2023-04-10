@@ -45,13 +45,10 @@ Write a function that returns the number of bits you would need to flip to get f
 - Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
 - You are not allowed to use the % or / operators
 
-## Tasks 6. Endianness 
-Write a function that checks the endianness.
+## Tasks 6. Endianness
 
-- Prototype: int get_endianness(void);
-- Returns: 0 if big endian, 1 if little endian
 
-## Tasks 7. Crackme3
+## Tasks7. Crackme3
 Write a function that checks the endianness.
 
 - Prototype: int get_endianness(void);
