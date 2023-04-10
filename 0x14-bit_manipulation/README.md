@@ -67,7 +67,7 @@ julien@holberton:~/0x13. Binary$
 - Your file should contain the exact password, no new line, no extra space
 
 Steps to crack the password
-``
+```
 Create the 101-password file and run chmod u+x 101-password (turns executable)
 create crackme3 file and run chmod u+x crackme
 Paste Hol into 101-password
