@@ -11,8 +11,8 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int name1, raise_power;
-	int int_len;
+unsigned int name1, raise_power;
+int int_len;
 	if (b == NULL)
 		return (0);
 
