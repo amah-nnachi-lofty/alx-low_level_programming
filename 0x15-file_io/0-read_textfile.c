@@ -10,7 +10,8 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int f;
-	ssize_t rlen, wlen;
+	ssize_t rlen;
+        ssize_t	wlen;
 	char *buffer;
 
 	if (!filename)
@@ -29,7 +30,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	wlen = write(STDOUT_FILENO, buffer, rlen);
 
 	close(f);
-
 	free(buffer);
 
 	return (wlen);
