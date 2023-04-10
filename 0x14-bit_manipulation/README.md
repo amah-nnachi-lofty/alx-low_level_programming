@@ -52,7 +52,7 @@ Write a function that checks the endianness.
 - Returns: 0 if big endian, 1 if little endian
 
 ## 7. Crackme3
-Find the password for this program.
+### Find the password for this program.
      julien@holberton:~/0x13. Binary$ ./crackme3 `cat 101-password`
      Congratulations!
      julien@holberton:~/0x13. Binary$ 
