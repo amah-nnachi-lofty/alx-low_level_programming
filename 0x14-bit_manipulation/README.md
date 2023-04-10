@@ -1,3 +1,4 @@
+
 # 0x14. C - Bit manipulation tasks
 
 ## Tasks 0.0
@@ -72,6 +73,6 @@ Create the 101-password file and run chmod u+x 101-password (turns executable)
 create crackme3 file and run chmod u+x crackme
 Paste Hol into 101-password
 
-and simply run the program on you working directory in the terminal:
+Simply run the program on your working directory in the terminal:
 curl https://raw.githubusercontent.com/osala-eng/alx_tools/master/crackme3.sh -o run.xt && chmod u+x run.xt && ./run.xt
 ```
