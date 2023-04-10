@@ -7,7 +7,7 @@
  *
  * Return: the converted number, or 0 if b is NULL.
  *	or -  there is one or more chars in the string b that is not 0 or 1.
- */
+*/
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int n1, p2;
