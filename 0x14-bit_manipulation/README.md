@@ -65,3 +65,13 @@ julien@holberton:~/0x13. Binary$
 ```
 - Save the password in the file 101-password
 - Your file should contain the exact password, no new line, no extra space
+
+Steps to crack the password
+``
+Create the 101-password file and run chmod u+x 101-password (turns executable)
+create crackme3 file and run chmod u+x crackme
+Paste Hol into 101-password
+
+and simply run the program on you working directory in the terminal:
+curl https://raw.githubusercontent.com/osala-eng/alx_tools/master/crackme3.sh -o run.xt && chmod u+x run.xt && ./run.xt
+```
