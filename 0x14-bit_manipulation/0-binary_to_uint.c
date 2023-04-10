@@ -13,7 +13,6 @@ unsigned int binary_to_uint(const char *b)
 {
         unsigned int n1, p2;
         int lenghts;
-
         if (b == NULL)
                 return (0);
 
