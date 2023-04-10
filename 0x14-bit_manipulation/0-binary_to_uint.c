@@ -9,22 +9,23 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-    unsigned int n1, p2; 
-    int int_len;
-    if (b == NULL)
-        return (0);
+	unsigned int n1, p2;
+	int lenghts;
 
-    for (int_len = 0; b[int_len]; int_len++)
-    {
-    if (b[int_len] != '0' && b[int_len] != '1')
-        return (0);
-    }
+	if (b == NULL)
+		return (0);
 
-    for (p2 = 1, n1 = 0, int_len--; int_len >= 0; int_len--, p2 *= 2)
-    {
-    if (b[int_len] == '1')
-        n1 += p2;
-    }
+	for (lenghts = 0; b[lenghts]; lenghts++)
+	{
+		if (b[lenghts] != '0' && b[lenghts] != '1')
+			return (0);
+	}
 
-    return (n1);
+	for (p2 = 1, n1 = 0, lenghts--; lenghts >= 0; lenghts--, p2 *= 2)
+	{
+		if (b[lenghts] == '1')
+			n1 += p2;
+	}
+
+	return (n1);
 }
