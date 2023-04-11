@@ -27,12 +27,12 @@ int create_file(const char *filename, char *text_content)
 	for (fname = 0; text_content[fname]; fname++)
 		;
 
-	fname = write(f, text_content, fname);
+	rwrite = write(f, text_content, fname);
 
 	if (fname == -1)
 		return (-1);
 
-	close(fd);
+	close(f);
 
 	return (1);
 }
