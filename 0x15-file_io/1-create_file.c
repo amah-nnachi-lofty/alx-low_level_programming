@@ -3,7 +3,7 @@
 /**
  * create_file - function to creates a file.
  * @filename: A pointer, an address reference to the file's name.
- * @text_content: The content writed in the filename
+ * @text_content: The content writed in the filename.
  *
  * Return: If an error, returns -1. Else, return 1.
  */
