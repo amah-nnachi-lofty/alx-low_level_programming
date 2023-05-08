@@ -1,7 +1,10 @@
 #include "main.h"
 
+char *create_buffer(char *file_name);
+void close_file(int file_descriptor);
+
 /**
- * create_buffer - 1024 bytes is allocates is allocated to buffer.
+ * create_buffer - 1024 bytes is allocated to buffer.
  * @file_name: Name given to file where buffer stores char.
  *
  * Return: The new allocated buffer pointer.
@@ -25,7 +28,7 @@ char *create_buffer(char *file_name)
 }
 
 /**
- * close_file -To close the file descriptors.
+ * close_file - To close the file descriptors.
  * @file_descriptor: File descriptors.
  */
 void close_file(int file_descriptor)
@@ -46,16 +49,16 @@ void close_file(int file_descriptor)
 }
 
 /**
- * main - Copies the contents of a file to another file.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * main - To copy contents of a file to another file.
+ * @argc: Number of command arguments.
+ * @argv: Array of pointers.
  *
  * Return: 0 on success.
  *
- * Description: When argument count is incorrect, exit code 97.
- *              When file_from does not exist or cannot be read, exit code 98.
- *              When file_to not be created or written to, exit code 99.
- *              If file_to / file_from cannot be closed, exit code 100.
+ * Description: When the argument count is incorrect, then exit code 97.
+ *              When file_from does not exisis nil or not read, exit code 98.
+ *              When files fails to create or written to, then exit code 99.
+ *              When file_to or file_from fails to close, then exit code 100.
  */
 int main(int argc, char *argv[])
 {
@@ -117,4 +120,3 @@ int main(int argc, char *argv[])
 		}
 	}
 }
-
