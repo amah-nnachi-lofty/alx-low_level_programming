@@ -1,8 +1,5 @@
 #include "main.h"
 
-char *create_buffer(char *file_name);
-void close_file(int file_descriptor);
-
 /**
  * create_buffer - 1024 bytes is allocates is allocated to buffer.
  * @file_name: Name given to file where buffer stores char.

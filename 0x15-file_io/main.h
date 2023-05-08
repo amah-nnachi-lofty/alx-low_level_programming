@@ -4,6 +4,7 @@
 /*libraries*/
 #include <sys/types.h>
 #include <fcntl.h>
+#include <elf.h>
 #include <unistd.h>
 #include <sys/stat.h>
 #include <stdlib.h>
