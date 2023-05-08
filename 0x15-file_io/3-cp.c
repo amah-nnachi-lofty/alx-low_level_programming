@@ -4,10 +4,10 @@ char *create_buffer(char *file_name);
 void close_file(int file_descriptor);
 
 /**
- * create_buffer - Allocates 1024 bytes for a buffer.
- * @file_name: The name of the file buffer is storing chars for.
+ * create_buffer - 1024 bytes is allocates is allocated to buffer.
+ * @file_name: Name given to file where buffer stores char.
  *
- * Return: A pointer to the newly-allocated buffer.
+ * Return: The new allocated buffer pointer.
  */
 char *create_buffer(char *file_name)
 {
@@ -28,8 +28,8 @@ char *create_buffer(char *file_name)
 }
 
 /**
- * close_file - Closes file descriptors.
- * @file_descriptor: The file descriptor to be closed.
+ * close_file -To close the file descriptors.
+ * @file_descriptor: File descriptors.
  */
 void close_file(int file_descriptor)
 {
@@ -55,10 +55,10 @@ void close_file(int file_descriptor)
  *
  * Return: 0 on success.
  *
- * Description: If the argument count is incorrect - exit code 97.
- *              If file_from does not exist or cannot be read - exit code 98.
- *              If file_to cannot be created or written to - exit code 99.
- *              If file_to or file_from cannot be closed - exit code 100.
+ * Description: When argument count is incorrect, exit code 97.
+ *              When file_from does not exist or cannot be read, exit code 98.
+ *              When file_to not be created or written to, exit code 99.
+ *              If file_to / file_from cannot be closed, exit code 100.
  */
 int main(int argc, char *argv[])
 {
